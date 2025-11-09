@@ -1,4 +1,4 @@
-# Verifica & Dona - Monorepo (Sprint 1)
+# ONG & Dona
 
 ## Prereqs
 - Docker & Docker Compose (v2)
