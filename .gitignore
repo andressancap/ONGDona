@@ -1,0 +1,71 @@
+# ============================================
+# Node.js
+# ============================================
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# ============================================
+# Next.js / React build
+# ============================================
+.next/
+out/
+build/
+dist/
+
+# ============================================
+# Environment files
+# ============================================
+.env
+.env.*
+!.env.example
+
+# ============================================
+# Logs
+# ============================================
+*.log
+logs/
+**/logs/
+
+# ============================================
+# Docker
+# ============================================
+# Ignore Docker Compose files in infra
+infra/docker-compose*.yml
+infra/docker-compose*.yaml
+
+# Ignore all Dockerfiles inside subprojects
+**/Dockerfile
+**/Dockerfile.*
+
+# Ignore docker build cache and artifacts
+**/.dockerignore
+**/.docker/
+**/tmp/
+**/cache/
+
+# ============================================
+# Coverage / Reports
+# ============================================
+coverage/
+**/coverage/
+*.lcov
+
+# ============================================
+# IDEs & OS files
+# ============================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ============================================
+# Hardhat / Solidity
+# ============================================
+artifacts/
+cache/
+typechain/
+typechain-types/
+contracts/cache/
+contracts/artifacts/
